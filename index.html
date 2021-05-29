@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="home">
+
+Startup in Storm Lake is a May term course facilitated by the <a href="https://www.bvu.edu/programs/undergraduate/stem/computer-science">Computer Science Department</a> of <a href="https://www.bvu.edu">Buena Vista University</a>. This awesome experiences was funded by the School of Science <a href="https://www.bvu.edu/news/bvu-announces-27-million-endowment-science">Stine Endowment</a> which provided the financial resources to make this high-impact learning experience a possibility for our team.
+
+  <!-- <h1 class="page-heading">Posts</h1> -->
+
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+
+
+</div>
