@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Startup in Storm Lake 2021</title>
+    <description>BVU Computer Science
+</description>
+    <link>http://startup-in-storm-lake-2021.github.io/</link>
+    <atom:link href="http://startup-in-storm-lake-2021.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 29 May 2021 10:18:37 -0500</pubDate>
+    <lastBuildDate>Sat, 29 May 2021 10:18:37 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Week 1</title>
+        <description>&lt;h4&gt;Dates: May 10&lt;sup&gt;th&lt;/sup&gt; - May 16&lt;sup&gt;th&lt;/sup&gt;&lt;/h4&gt;
+&lt;h4&gt;Authors: Deniece &amp;amp; Jacob&lt;/h4&gt;
+
+&lt;p&gt;Hey y’all! Welcome to the first week of our startup blog.  Deniece and I (Jacob) will be your guide through our first week here at Startup in Storm Lake.  During the first week, we put in many hours of planning as a whole team and got a good foundation for what we wanted our app to look like and outline a minimum viable product.  This would allow us to plow through our ideas in a manner that allowed our front-end team and back-end team to work independently of each other and then meet in the middle to test certain milestones.  We did seem to do a lot of work and planning this first week, but that is not to say that we didn’t make enough time for fun activities.  There was plenty of fun to be had for all of us. We here at Startup in Storm Lake take our relaxation pretty seriously.&lt;/p&gt;
+
+&lt;h3&gt;Day # 1 (Monday, May 10&lt;sup&gt;th&lt;/sup&gt;, 2021)&lt;/h3&gt;
+&lt;p&gt;For the first day, everyone was getting used to the new schedule and woke up fairly early and ran through the shower and ate breakfast. We sat around for a bit and then started working at about 8:30. Dr. Shepherd showed up and went on a coffee run for us. While he did that we started getting everything planned out and set up our GitHub repositories. After working in the morning, we ate lunch where Jimmy learned how to cook burgers and hot dogs on the grill. We then took a break and played Super Smash Bros on the Nintendo Switch. Jimmy somehow came out victorious from this brawl. We then decided that we wanted to do something outside so we went disc golfing down by the lake. Daymion had a hay day at the park playing in the water and finding discs that people threw in the water on accident and found a few abandoned discs to keep as his own. He was also very passionate about some sticks that he found. When we came back, we laid around for a while and Dr. Backman baked us a lasagna and made a salad and garlic bread. After supper we dove right back into work and completed a few more things.  Then we took a break and just relaxed and played games before bed.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Front-end - The first day started out with a meeting to discuss what we were going to do, with the front-end working on getting a small prototype to display the user on the map at their location – which was finished after the working environments were set up.&lt;/li&gt;
+&lt;li&gt; Backend - In terms of our backend work, we had Jamie join Jason, Daymion, and I (Jacob) as an honorary backend member for the day to decide how the backend will store paint and calculate score to properly give the front end information that they need to draw the bombs correctly. We did a lot of planning on our new really cool Vibe boards. We also talked about who would want to start tackling what milestones. We had decided that Jason and Daymion would work on Postgres stuff and I would work with Dr. Backman on creating a script to spin up a testing instance of our backend. After all the planning, we felt fairly ready to attack all we had planned for the next day.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Day # 2 (Tuesday, May 11&lt;sup&gt;th&lt;/sup&gt;, 2021)&lt;/h3&gt;
+&lt;p&gt;Day two started off very similar to yesterday. After our morning worktime we walked over to Grand Central for lunch. After which we went back to the VRBO before we tried to go over to mini golf across the street, but failed when we were told they weren’t open yet (more on that week three). Instead of mini golfing then, we went back out to the disc golf course to play again – which resulted in more searching for discs in the water and more picking out sticks. Dr. Backman and Dr. Shepherd both joined us this time as well – and Dr. Shepherd tried to take out some people by throwing his disc sideways instead of forward a couple times. We stayed in for dinner and then finished off the day with more work time.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; Frontend - Today, the front-end created our GitHub repository, named &#39;paint&#39;, and then moved over the progress from the previous day. Then work was set out to make the Home screen, be able to place bombs, and other small styling and items.&lt;/li&gt;
+&lt;li&gt; Backend - On the start of Tuesday, Dr. Backman and I began writing a script to allow us to easily spin up an instance of a new database with a user account relating to the person creating the test instance of our backend and connect to it. Jason and Daymion then went to work on figuring out how to get a PostgreSQL database setup and worked on getting some queries set up to put test data in the database for each run of the script. We had almost finished an outline to this today and are about ready to start writing routes to interact with the database and query stuff.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Day # 3 (Wednesday, May 12&lt;sup&gt;th&lt;/sup&gt;, 2021)&lt;/h3&gt;
+&lt;p&gt;Wednesday started off pretty similarly to the previous two days, except Jimmy decided to get up and cook breakfast for everyone. He made bacon, eggs, and toast. We then went about our morning work session until about 12:00 pm. For lunch we fended for ourselves and made lunch meat sandwiches and chips. In the afternoon, we took a break and relaxed and just watched tv and took naps on the couches. While we did that Dr. Backman again made us supper. He made a delicious bean casserole (which I (Jacob) would eat for leftovers for about a week) with salad and garlic bread. We worked for a little while longer and then decided that we need to go on a store run and do some meal planning. Jimmy and I went with Dr. Backman to the store while the others stayed back and relaxed. It was fun picking out all the food we wanted, but I was very sad after not being able to find seaweed wraps at any of the grocery stores in town for the sushi that I wanted to make (we did eventually find them though, don’t worry). After we got back and unloaded all the groceries, we relaxed and played some more board games (mainly Secret Hitler where Jamie started to learn how to properly lie).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Frontend - The front-end made further progress on bomb placement today -  including placement and sounds. The loading screen was implemented so the user wouldn&#39;t see the map before it was ready for them, and we made a modal to show team scores. Dinosaurs.&lt;/li&gt;
+&lt;li&gt; Backend - Today Dr. Backman and I had finished up most of the script to create an instance of our backend. We also had a bunch of dummy data in the database to query and a basic query set up just to see if we were able to connect to the database correctly and grab the data that we want. Jason and Daymion had created more queries to insert data into the database and had laid out a lot of the schema for how our tables in the database are related to each other and how we will try to grab specific pieces of data when needed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Day # 4 (Thursday, May 13&lt;sup&gt;th&lt;/sup&gt;, 2021)&lt;/h3&gt;
+&lt;p&gt;After our morning worktime and lunch, we decided to spend the afternoon in the park. We took blankets, chairs, and a hammock to chill out in, as well as items for lawn golf, Bocce ball, a frisbee, and some scooters. While Jason, Jacob, and Jimmy played lawn golf, Daymion was trying to set up his hammock over large rocks, and Dr. Backman and I (Deniece) were playing Bocce Ball (which I beat him at). I then played Bocce ball with Daymion, who would throw the target ball really far since he could throw farther. We then played a few rounds of Bocce ball as a whole group in teams, which resulted in general craziness. Jacob, Jason, Daymion, and Jimmy then decided to ride the scooters over to the lighthouse and go up top while Dr. Backman hit some tennis balls around and I lied in the hammock. We went back to the VRBO afterwards, only a little sunburnt, and later headed over to the Regatta Grille for dinner. Later in the night we had root beer floats and played Code Names while rooting for Jamie and the rest of the softball team – who got some good wins today.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Frontend - Front-end started to make routes today – starting with routes to get and place bombs (the core of the game). Along with this, there was a paint meter than will fill up over time to place the bombs and some new fancy background images added, created by Jamie.&lt;/li&gt;
+&lt;li&gt; Backend - For the backend today, we totally rethought about the way that we will be storing paint and calculating score for the users. We decided that we would use rasterized grids to store paint. Each point of paint is a 10 meter by 10 meter square that corresponds to a point in a sub grid that is based on a specific decimal point of a latitude and longitude coordinate. We drew many examples and did a lot of math to figure out how this would be calculated the best and be represented accurately based on how to frontend show the user a bomb. Jason and Daymion worked hard on that after all our planning and I went on to work on creating routes to interact with the frontend and send back proper response codes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Day # 5 (Friday, May 14&lt;sup&gt;th&lt;/sup&gt;, 2021)&lt;/h3&gt;
+&lt;p&gt;On Friday, we decided to do something different and went back to Regatta Grille and had breakfast there. It was a nice change of pace from just eggs, cereal, and oatmeal. During the morning work session, we were rooting for Jamie and the softball team in the tournament, in which they got screwed by a bad call. We had lunch at the VRBO today and then just relaxed a bit before we decided to work again a little before supper since we planned on going to a movie that night. For supper, Daymion made his potato soup which was very good with some bread and butter – and even better on some biscuits for breakfast. We then went to the theater in town and watched Those Who Wish Me Dead, which did not have a very satisfying ending 🙁. A little while after we got back, Jamie had finished all of her softball stuff back on campus and joined us for the night where we played games and relaxed before going to bed.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Frontend - Front-end did more work on the paint-meter today – with a new fancy feature that subtracts paint from the meter when a bomb is placed. More work was done on the routes for getting and placing bombs, and user login screens were worked on further.&lt;/li&gt;
+&lt;li&gt; Backend - Today the backend worked on cleaning up a few of our errors and mistakes in our code and catching the dummy data queries up to speed with all the changes that we have made in our code. We also did a lot more thinking and math to figure out how we could get rasterization to correctly represent the score and size of a bomb in the database.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Day # 6 (Saturday, May 15&lt;sup&gt;th&lt;/sup&gt;, 2021)&lt;/h3&gt;
+&lt;p&gt;After our morning worktime we headed over to Dr. Backman’s house for the day. We got to meet the two adorable golden retrievers, Ember and Blaise, and a very soft cat, Izzy. We moved to the backyard to throw some frisbees around until it started to rain on us and we made a run to Dr. Backman’s parent’s house across the street – some on foot and some on scooters. There was only one casualty from this. We played pool, and occasionally threw some darts, where we broke up into the front-end and back-end group. The back-end (unfortunately) won that game, but we played where each person had two of their own balls they didn’t want to get in and I (Deniece) took the prize for that game. After playing pool, the rain had stopped and we went back to Dr Backman’s house where we played spike ball at the park next door (where Jamie tried to take out Jacob) and some Bocce Ball. We went back inside to get dinner, which were lettuce wraps, and ate on the deck. We then played Mario Kart until it got darker out and we lit a fire and made s’mores – where some people put their marshmallow between brownies. We then headed back to the VRBO to rejoin Daymion (who had been gone that day) to watch the movie A Quiet Place.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Frontend - Most of front-end&#39;s work today consisted of Jamie making a ton of icons – three icons that had to exist in eight different colors. New paint sounds were found – ones that actually sound like paint splatter – and Authentication/token management was introduced.&lt;/li&gt;
+&lt;li&gt; Backend - Today the backend worked on creating more routes and fixing some errors in our rasterization calculations. Jason tackled moving forward with creating users and having a login route for them. This was introduced to us by Dr. Shepherd using a library that was way out of date. I (Jacob) worked on debugging the rasterizations calculations to give Jason and Daymion a break.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Day # 7 (Sunday, May 16&lt;sup&gt;th&lt;/sup&gt;, 2021)&lt;/h3&gt;
+&lt;p&gt;We decided to take today off to have a break from working on the app. Instead of working we decided to chase the dragon off that had started coming too close to our territory. We armed ourselves as well as we could on short notice and leapt into action. Dr. Backman led the way as we charged, Daymion wielded his stick with extreme accuracy as Jamie got the dragon’s attention. Once he turned his head the time to strike arrived. Pushing forward we dodged blows from his claws and tail as we strike the dragon. The dragon raises the white flag of surrender and we learn his name is Timothy. Turns out, everything was a big misunderstanding, he just wanted to tell us about our car’s extended warranty. After that, we went to play some more disc golf, and then headed over to Wal-Mart. We bought a few games, including Inco”hear”ant, Things, Do You Know Me?, and Trial by Trolley. We also got two new frisbees and cornhole/bags. We went to Pizza Ranch for dinner and played some of the games we got earlier in the day at night.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Frontend - The front-end took this day off.&lt;/li&gt;
+&lt;li&gt;Backend - The backend also took this day off.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 16 May 2021 11:59:59 -0500</pubDate>
+        <link>http://startup-in-storm-lake-2021.github.io/jekyll/update/2021/05/16/week-1.html</link>
+        <guid isPermaLink="true">http://startup-in-storm-lake-2021.github.io/jekyll/update/2021/05/16/week-1.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
