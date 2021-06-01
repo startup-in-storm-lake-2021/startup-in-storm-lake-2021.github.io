@@ -4,14 +4,17 @@
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  {% assign filenames = include.files | split: "," %}
+  {% assign filenames = include.files | split: ";" %}
+  {% assign captions = include.captions | split: ";" %}
   {% assign fileID = 0 %}
+  {% assign captionID = -1 %}
   {% for file in filenames %}
     {% assign fileID = fileID | plus:1 %}
+    {% assign captionID = captionID | plus:1 %}
     <div class="{{include.name}} fade">
       <div class="numbertext">{{fileID}} / {{filenames.size}}</div>
       <img src="/assets/images/{{file}}" style="width:100%">
-      <div class="text">Caption Text</div>
+      <div class="text">{{ captions[captionID] }}</div>
     </div>
   {% endfor %}
 
@@ -25,10 +28,11 @@
 {% assign fileID = 0 %}
 {% for file in filenames %}
   {% assign fileID = fileID | plus:1 %}
-  <span class="dot" onclick="currentSlide('{{include.name}}', {{fileID}})"></span>
+  <span class="{{include.name}}-dots dot" onclick="currentSlide('{{include.name}}', {{fileID}})"></span>
 {% endfor %}
 </div>
 
 <script>
-  showSlides('{{include.name}}', slideIndex);
+  slideIndex['{{include.name}}'] = 1;
+  showSlides('{{include.name}}', slideIndex['{{include.name}}']);
 </script>

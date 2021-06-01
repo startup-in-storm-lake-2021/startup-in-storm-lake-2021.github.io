@@ -1,33 +1,3 @@
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// Next/previous controls
-function plusSlides(slideID, n) {
-  showSlides(slideID, slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(slideID, n) {
-  showSlides(slideID, slideIndex = n);
-}
-
-function showSlides(slideID, n) {
-  var i;
-  var slides = document.getElementsByClassName(slideID);
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
 
 <h4>Dates: May 10<sup>th</sup> - May 16<sup>th</sup></h4>
 <h4>Authors: Deniece & Jacob</h4>
@@ -42,14 +12,14 @@ Hey y'all! Welcome to the first week of our startup blog.  Deniece and I (Jacob)
 <h3>Day # 1 (Monday, May 10<sup>th</sup>, 2021)</h3>
 For the first day, everyone was getting used to the new schedule and woke up fairly early and ran through the shower and ate breakfast. We sat around for a bit and then started working at about 8:30. Dr. Shepherd showed up and went on a coffee run for us. While he did that we started getting everything planned out and set up our GitHub repositories. After working in the morning, we ate lunch where Jimmy learned how to cook burgers and hot dogs on the grill. We then took a break and played Super Smash Bros on the Nintendo Switch. Jimmy somehow came out victorious from this brawl. We then decided that we wanted to do something outside so we went disc golfing down by the lake. Daymion had a hay day at the park playing in the water and finding discs that people threw in the water on accident and found a few abandoned discs to keep as his own. He was also very passionate about some sticks that he found. When we came back, we laid around for a while and Dr. Backman baked us a lasagna and made a salad and garlic bread. After supper we dove right back into work and completed a few more things.  Then we took a break and just relaxed and played games before bed.
 
-{% include carousel.html name="intro_pics" files="week1/5_10-Daymion_Jacob.jpg,week1/5_10-Deniece_Jimmy.jpg,week1/5_10-Jason_Jamie.jpg,week1/5_10-Shepherd.jpg" %}
+{% include carousel.html name="5_10-work" files="week1/5_10-Daymion_Jacob.jpg;week1/5_10-Deniece_Jimmy.jpg;week1/5_10-Jason_Jamie.jpg;week1/5_10-Shepherd.jpg" captions="Daymion and Jacob;Deniece and Jimmy;Jason and Jamie;Dr. Shepherd with the front-end group" %}
 
 <ul>
 <li> Front-end - The first day started out with a meeting to discuss what we were going to do, with the front-end working on getting a small prototype to display the user on the map at their location – which was finished after the working environments were set up.</li>
 <li> Back-end - In terms of our back-end work, we had Jamie join Jason, Daymion, and I (Jacob) as an honorary back-end member for the day to decide how the back-end will store paint and calculate score to properly give the front end information that they need to draw the bombs correctly. We did a lot of planning on our new really cool Vibe boards. We also talked about who would want to start tackling what milestones. We had decided that Jason and Daymion would work on Postgres stuff and I would work with Dr. Backman on creating a script to spin up a testing instance of our back-end. After all the planning, we felt fairly ready to attack all we had planned for the next day.</li>
 </ul>
 
-{% include carousel.html name="5_10-play" files="week1/5_10-Smash.jpg,week1/5_10-Vibe_paint_circles.jpg" %}
+{% include carousel.html name="5_10-play" files="week1/5_10-Vibe_paint_circles.jpg;week1/5_10-Smash.jpg" captions="Drawing on our Vibe smart boards;Downtime playing Smash Bros" %}
 
 
 <h3>Day # 2 (Tuesday, May 11<sup>th</sup>, 2021)</h3>
