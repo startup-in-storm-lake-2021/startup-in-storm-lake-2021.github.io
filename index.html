@@ -4,10 +4,11 @@ layout: default
 
 <div class="home">
 
-Startup in Storm Lake is a May term course facilitated by the <a href="https://www.bvu.edu/programs/undergraduate/stem/computer-science">Computer Science Department</a> of <a href="https://www.bvu.edu">Buena Vista University</a>. This awesome experiences was funded by the School of Science <a href="https://www.bvu.edu/news/bvu-announces-27-million-endowment-science">Stine Endowment</a> which provided the financial resources to make this high-impact learning experience a possibility for our team.
+Startup in Storm Lake is a May term course facilitated by the <a href="https://www.bvu.edu/programs/undergraduate/stem/computer-science">Computer Science Department</a> of <a href="https://www.bvu.edu">Buena Vista University</a>. This awesome experience was funded by the School of Science <a href="https://www.bvu.edu/news/bvu-announces-27-million-endowment-science">Stine Endowment</a> which provided the financial resources to make this high-impact learning experience a possibility for our team.
 
-  <!-- <h1 class="page-heading">Posts</h1> -->
+  <p>&nbsp;</p>
 
+  <h1 class="page-heading">Read about our experiencse in the blog posts below</h1>
 
   <ul class="post-list">
     {% for post in site.posts reversed %}
@@ -15,12 +16,32 @@ Startup in Storm Lake is a May term course facilitated by the <a href="https://w
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} Blog Post</a>
         </h2>
       </li>
     {% endfor %}
   </ul>
 
+
+  <h1 class="page-heading">Meet the Students</h1>
+
+  <h4 align="center">Jimmy ('22)</h4>
+{% include carousel_nocap.html name="Jimmy" files="front/Jimmy_1.jpg;front/Jimmy_2.jpg;front/Jimmy_3.jpg" %}
+
+  <h4 align="center">Jacob ('22)</h4>
+{% include carousel_nocap.html name="Jacob" files="front/Jacob_1.jpg;front/Jacob_2.jpg;front/Jacob_3.jpg" %}
+
+  <h4 align="center">Deniece ('22)</h4>
+{% include carousel_nocap.html name="Deniece" files="front/Deniece_1.jpg;front/Deniece_2.jpg;front/Deniece_3.jpg" %}
+
+  <h4 align="center">Jason ('23)</h4>
+{% include carousel_nocap.html name="Jason" files="front/Jason_1.jpg;front/Jason_2.jpg;front/Jason_3.jpg" %}
+
+  <h4 align="center">Daymion ('23)</h4>
+{% include carousel_nocap.html name="Daymion" files="front/Daymion_1.jpg;front/Daymion_2.jpg;front/Daymion_3.jpg" %}
+
+  <h4 align="center">Jamie ('24)</h4>
+{% include carousel_nocap.html name="Jamie" files="front/Jamie_1.jpg;front/Jamie_2.jpg;front/Jamie_3.jpg" %}
 
 
 </div>
